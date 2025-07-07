@@ -32,7 +32,7 @@ export default function TopMedia() {
           <div className="flex flex-col gap-4 xl:w-[50%]">
             <p className="font-clash font-semibold text-[16px] leading-[15.5px] xl:text-[32px] xl:leading-[31px] bg-gradient-to-r from-[#F09819] to-[#EDDE5D] text-transparent bg-clip-text inline-block">
               Guaranteed Results
-              <span className="text-white"> or it's Free!</span>
+              <span className="text-white"> or it&#39;s Free!</span>
             </p>
             <p className="font-satoshi font-medium text-[9px] leading-[9px] xl:text-[18px] xl:leading-[18px] text-white opacity-80">
               The risk is on us. Try our service for 90 days — if your account
