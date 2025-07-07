@@ -1,0 +1,173 @@
+import { BigQuote } from "@/libs/SVG";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import { FreeMode, Autoplay } from "swiper/modules";
+
+interface ReviewCardProps {
+  imgURL: string;
+  title: string;
+  description: string;
+  userName: string;
+  userType: string;
+}
+
+export default function WhyTrust() {
+  return (
+    <section className="w-full bg-white xl:mb-[36px]">
+      <div className="max-w-[1440px] w-full xl:py-[48px] mx-auto">
+        <div className="flex flex-col items-center gap-2 xl:gap-4 mb-[24px] xl:mb-[54px]">
+          <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px]">
+            Why Trust SocialPlug?
+          </div>
+          <h2 className="font-h2">
+            Real Results from
+            <span className="text-primary"> Real People</span>
+          </h2>
+          <p className="xl:w-[60%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-center text-black opacity-70">
+            No bots. No shadowbans. Just real growth stories from real
+            customers.
+          </p>
+        </div>
+        <div className="flex xl:mb-5 mb-[10px]">
+          <Swiper
+            slidesPerView="auto"
+            spaceBetween={20}
+            loop={true}
+            speed={15000}
+            modules={[FreeMode, Autoplay]}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: false,
+            }}
+            freeMode={{ enabled: true, momentum: false }}
+            allowTouchMove={false}
+            simulateTouch={false}
+            className="mySwiper"
+          >
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_1.png"
+                title="No Shadownban after 3 months!"
+                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                userName="Sarah M."
+                userType="Fashion Blogger"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_2.png"
+                title="Didn't even need my password. So much safer than other sites"
+                description="dn’t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
+                userName="Mike D."
+                userType="Musician"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_1.png"
+                title="No Shadownban after 3 months!"
+                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                userName="Sarah M."
+                userType="Fashion Blogger"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="flex xl:mb-5 mb-[10px]">
+          <Swiper
+            slidesPerView="auto"
+            spaceBetween={20}
+            loop={true}
+            speed={10000}
+            modules={[FreeMode, Autoplay]}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: false,
+              reverseDirection: true,
+            }}
+            freeMode={{ enabled: true, momentum: false }}
+            allowTouchMove={false}
+            simulateTouch={false}
+            className="mySwiper"
+          >
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_1.png"
+                title="No Shadownban after 3 months!"
+                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                userName="Sarah M."
+                userType="Fashion Blogger"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_2.png"
+                title="Didn't even need my password. So much safer than other sites"
+                description="dn’t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
+                userName="Mike D."
+                userType="Musician"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+              <ReviewCard
+                imgURL="/img/review_img_1.png"
+                title="No Shadownban after 3 months!"
+                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                userName="Sarah M."
+                userType="Fashion Blogger"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ReviewCard({
+  imgURL,
+  title,
+  description,
+  userName,
+  userType,
+}: ReviewCardProps) {
+  return (
+    <div className="bg-background-light xl:w-[640px] xl:h-[340px] w-[320px] h-[170px] rounded-[16px] border-[2px] border-white flex xl:gap-4 gap-2 xl:p-4 p-2 shadow-xl">
+      <Image
+        src={imgURL}
+        width={250}
+        height={305}
+        alt="review_img"
+        className="xl:w-[250px] xl:h-[305px] w-[125px] h-[152.5px]"
+      />
+      <div className="w-full flex flex-col justify-between">
+        <div className="flex flex-col xl:gap-6 gap-3">
+          <div className="xl:size-[32px] size-[16px]">{BigQuote}</div>
+          <div className="flex flex-col xl:gap-4 gap-2">
+            <p className="font-clash font-semibold xl:text-[20px] xl:leading-[25px] text-[10px] leading-[12px] text-black">
+              {title}
+            </p>
+            <p className="font-satoshi font-medium text-[9px] leading-[12.5px] xl:text-[18px] xl:leading-[25px] text-black">
+              {description}
+            </p>
+          </div>
+        </div>
+        <div className="flex xl:gap-2 gap-1 items-center w-full">
+          <p className="font-satoshi font-bold text-[12px] leading-[15px] xl:text-[24px] xl:leading-[30px] text-black">
+            {userName}
+          </p>
+          <div className="w-[18px] h-[18px] flex items-center justify-center">
+            <div className="w-[8px] h-[8px] bg-black rounded-full opacity-20"></div>
+          </div>
+          <p className="font-satoshi font-medium text-[9px] leading-[12.5px] xl:text-[18px] xl:leading-[25px] text-black opacity-60">
+            {userType}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
