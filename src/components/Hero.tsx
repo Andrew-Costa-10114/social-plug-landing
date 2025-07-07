@@ -152,7 +152,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full xl:w-[600px] px-4">
-          <div className="w-full flex items-center justify-center gap-[10px] py-[10px] px-3 mb-4">
+          <div className="w-full flex items-center justify-center xl:justify-start gap-[10px] py-[10px] px-3 mb-4">
             <div className="flex gap-[5px]">
               {[...new Array(5)].map((_, index) => (
                 <Image

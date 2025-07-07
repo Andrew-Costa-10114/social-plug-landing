@@ -59,7 +59,7 @@ export default function TopMedia() {
           <p className="font-satoshi font-medium text-[20px] text-black opacity-50 uppercase">
             Featured in Top Media
           </p>
-          <div className="grid grid-cols-3 xl:grid-rows-1 gap-5 xl:gap-[52px] items-center">
+          <div className="grid grid-cols-3 xl:grid-cols-6 gap-5 xl:gap-[52px] items-center">
             {TopMediaImgURLs.map((item, index) => (
               <Image
                 src={item}
