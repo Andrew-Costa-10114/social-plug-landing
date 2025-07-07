@@ -1,5 +1,5 @@
 "use client";
-import React, { memo } from "react";
+import React from "react";
 import FollowUs from "./Followus";
 import Summary from "./Summary";
 import SellingService from "./SellingService";

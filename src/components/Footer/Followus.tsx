@@ -1,8 +1,7 @@
 "use client";
-import React, { memo, useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { LinkedInIcon, TwitterIcon, YoutubeIcon } from "@/libs/SVG";
-import { MainButton } from "../Button";
 
 interface SocialLink {
   href: string;
