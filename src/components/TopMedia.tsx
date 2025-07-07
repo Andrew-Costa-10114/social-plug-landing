@@ -15,7 +15,7 @@ export default function TopMedia() {
       <div className="max-w-[1440px] w-full xl:px-[72px] xl:pt-[24px] mx-auto">
         <div className="relative bg-black border border-light-border w-full xl:rounded-[16px] py-[13.5px] px-[16px] xl:py-[27px] xl:px-[32px] flex gap-4 xl:gap-8 items-center overflow-hidden">
           <Image
-            src="/img/instagram_3D.png"
+            src="/img/instagram_3d.png"
             width={122}
             height={122}
             alt="instagram_3D"
