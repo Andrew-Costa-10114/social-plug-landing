@@ -152,7 +152,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full xl:w-[600px] px-4">
-          <div className="w-full flex items-center gap-[10px] py-[10px] px-3 mb-4">
+          <div className="w-full flex items-center justify-center gap-[10px] py-[10px] px-3 mb-4">
             <div className="flex gap-[5px]">
               {[...new Array(5)].map((_, index) => (
                 <Image
@@ -167,7 +167,7 @@ export default function Hero() {
             </div>
             <p className="font-satoshi font-bold text-[10px] xl:text-[15px] leading-[20px] text-black">
               4.8/5
-              <span className="opacity-60 font-medium">
+              <span className="text-black/60 font-medium">
                 {" "}
                 from 3,637 Reviews
               </span>
