@@ -51,7 +51,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_1.png"
                 title="No Shadownban after 3 months!"
-                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
                 userType="Fashion Blogger"
               />
@@ -60,7 +60,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_2.png"
                 title="Didn't even need my password. So much safer than other sites"
-                description="dn’t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
+                description="dn&#39;t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
                 userName="Mike D."
                 userType="Musician"
               />
@@ -69,7 +69,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_1.png"
                 title="No Shadownban after 3 months!"
-                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
                 userType="Fashion Blogger"
               />
@@ -98,7 +98,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_1.png"
                 title="No Shadownban after 3 months!"
-                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
                 userType="Fashion Blogger"
               />
@@ -107,7 +107,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_2.png"
                 title="Didn't even need my password. So much safer than other sites"
-                description="dn’t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
+                description="dn&#39;t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
                 userName="Mike D."
                 userType="Musician"
               />
@@ -116,7 +116,7 @@ export default function WhyTrust() {
               <ReviewCard
                 imgURL="/img/review_img_1.png"
                 title="No Shadownban after 3 months!"
-                description="It’s been over 3 months and I haven’t had any shadowban issues since using this. My reach is steady, engagement’s up, and I’m finally growing without random drops."
+                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
                 userType="Fashion Blogger"
               />

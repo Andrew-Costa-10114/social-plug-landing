@@ -34,8 +34,8 @@ export default function TheProcess() {
             <span className="text-primary"> Works?</span>
           </h2>
           <p className="xl:w-[30%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
-            Here’s how it works—simple, quick, and hassle-free to get started
-            with our social media services.
+            Here&#39;s how it works—simple, quick, and hassle-free to get
+            started with our social media services.
           </p>
         </div>
         <div className="w-full relative">

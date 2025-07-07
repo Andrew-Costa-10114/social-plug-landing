@@ -277,7 +277,7 @@ export default function Hero() {
               className="xl:size-[32px] size-[24px]"
             />
             <p className="font-satoshi font-medium text-[11px] xl:text-[15px] leading-[8px] xl:leading-[11px] text-black uppercase tracking-[-1px]">
-              Guaranteed Results or it’s free!
+              Guaranteed Results or it&#39;s free!
             </p>
           </div>
         </div>

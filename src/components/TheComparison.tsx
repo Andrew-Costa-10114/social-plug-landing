@@ -22,7 +22,7 @@ const TheCompareData = [
     other: false,
   },
   {
-    description: "Guaranteed results or it’s free",
+    description: "Guaranteed results or it&#39;s free",
     socialplug: true,
     other: false,
   },

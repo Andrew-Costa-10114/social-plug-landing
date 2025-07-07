@@ -36,7 +36,8 @@ export default function TopMedia() {
             </p>
             <p className="font-satoshi font-medium text-[9px] leading-[9px] xl:text-[18px] xl:leading-[18px] text-white opacity-80">
               The risk is on us. Try our service for 90 days — if your account
-              doesn’t grow, we’ll give you a full refund. No questions asked.
+              doesn&#39;t grow, we&#39;ll give you a full refund. No questions
+              asked.
             </p>
           </div>
           <Image
