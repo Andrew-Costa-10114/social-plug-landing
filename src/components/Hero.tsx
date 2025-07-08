@@ -94,7 +94,7 @@ export default function Hero() {
             >
               {HeroUserImages_1.map((item, index) => (
                 <SwiperSlide
-                  className="!hidden !xl:block z-10 xl:rounded-[30px]"
+                  className="!hidden xl:!block z-10 xl:rounded-[30px]"
                   key={index}
                 >
                   <Image
@@ -108,7 +108,7 @@ export default function Hero() {
               ))}
               {HeroUserImages_2.map((item, index) => (
                 <SwiperSlide
-                  className="xl:hidden z-10 xl:rounded-[30px]"
+                  className="xl:!hidden !block z-10 xl:rounded-[30px]"
                   key={index}
                 >
                   <Image
