@@ -48,11 +48,25 @@ interface CartType {
 }
 
 const HeroUserImages = [
+  "/img/hero_user_0.png",
+  "/img/hero_user_1.png",
+  "/img/hero_user_2.png",
   "/img/hero_user_3.png",
-  "/img/hero_user_1.png",
-  "/img/hero_user_2.png",
-  "/img/hero_user_1.png",
-  "/img/hero_user_2.png",
+  "/img/hero_user_4.png",
+];
+
+const HeroUserImages_1 = [
+  "/img/hero_user_0.png",
+  "/img/hero_user_0.png",
+  "/img/hero_user_0.png",
+  "/img/hero_user_0.png",
+];
+
+const HeroUserImages_2 = [
+  "/img/hero_user_6.png",
+  "/img/hero_user_6.png",
+  "/img/hero_user_6.png",
+  "/img/hero_user_6.png",
 ];
 
 export default function Hero() {
@@ -78,14 +92,31 @@ export default function Hero() {
               }}
               modules={[Navigation]}
             >
-              {HeroUserImages.map((item, index) => (
-                <SwiperSlide className="z-10 xl:rounded-[30px]" key={index}>
+              {HeroUserImages_1.map((item, index) => (
+                <SwiperSlide
+                  className="!hidden !xl:block z-10 xl:rounded-[30px]"
+                  key={index}
+                >
                   <Image
                     src={item}
                     width={610}
                     height={610}
                     alt="hero_img_1"
                     className="xl:rounded-[30px] xl:w-[610px] xl:h-[610px] size-full aspect-[1]"
+                  />
+                </SwiperSlide>
+              ))}
+              {HeroUserImages_2.map((item, index) => (
+                <SwiperSlide
+                  className="xl:hidden z-10 xl:rounded-[30px]"
+                  key={index}
+                >
+                  <Image
+                    src={item}
+                    width={402}
+                    height={292}
+                    alt="hero_img_1"
+                    className="xl:rounded-[30px] size-full"
                   />
                 </SwiperSlide>
               ))}
@@ -377,31 +408,32 @@ function StateCard({
 }) {
   return (
     <div
-      className={`w-[223px] h-[124px] bg-white rounded-[12px] shadow-md font-inter px-4 py-3 flex flex-col gap-5 border border-black-border ${className}`}
+      className={`xl:w-[223px] xl:h-[124px] w-[156px] h-[86px] bg-white rounded-[8.5px] xl:rounded-[12px] shadow-md font-inter px-[11px] py-2 xl:px-4 xl:py-3 flex flex-col gap-[14px] xl:gap-[5px] border border-black-border ${className}`}
     >
-      <div className="flex items-center gap-[5px]">
+      <div className="flex items-center gap-[14px] xl:gap-[5px]">
         <Image
           src="/img/icons_instagram.png"
           width={20}
           height={20}
           alt="instagram_icon"
+          className="xl:size-[20px] size-[14px]"
         />
-        <p className="font-satoshi font-medium text-[14px] leading-[20px] text-black">
+        <p className="font-satoshi font-medium text-[10px] leading-[7px] xl:text-[14px] xl:leading-[10px] text-black">
           Instagram Followers
         </p>
       </div>
       <div className="h-full flex items-center">
         <div className="flex flex-col h-full justify-between">
           <div className="flex w-full items-end">
-            <p className="font-satoshi font-bold text-[40px] leading-[30px] text-black">
+            <p className="font-satoshi font-bold text-[28px] leading-[20px] xl:text-[40px] xl:leading-[30px] text-black">
               {data.followers}
             </p>
             {Trend}
-            <p className="font-satoshi font-medium text-[16px] text-primary">
+            <p className="font-satoshi font-medium text-[11px] xl:text-[16px] text-primary">
               {data.percent}
             </p>
           </div>
-          <p className="font-satoshi font-medium text-[14px] leading-[10px] opacity-50 text-black">
+          <p className="font-satoshi font-medium text-[10px] leading-[7px] xl:text-[14px] xl:leading-[20px] opacity-50 text-black">
             Last 7 days
           </p>
         </div>
