@@ -95,18 +95,10 @@ const ReviewsData: ReviewItemProps[] = [
 ];
 
 export default function Reviews() {
-  const [count, setCount] = useState(() => {
-    const width = window.innerWidth;
-    if (width >= 1440) return 6;
-    else return 4;
-  });
+  const [count, setCount] = useState(6);
 
   const [flag, setFlag] = useState(false);
-  const [miniCount, setMiniCount] = useState(() => {
-    const width = window.innerWidth;
-    if (width >= 1440) return 6;
-    else return 4;
-  });
+  const [miniCount, setMiniCount] = useState(6);
 
   useEffect(() => {
     function handleResize() {
