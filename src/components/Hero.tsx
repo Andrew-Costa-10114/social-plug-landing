@@ -408,9 +408,9 @@ function StateCard({
 }) {
   return (
     <div
-      className={`xl:w-[223px] xl:h-[124px] w-[156px] h-[86px] bg-white rounded-[8.5px] xl:rounded-[12px] shadow-md font-inter px-[11px] py-2 xl:px-4 xl:py-3 flex flex-col gap-[14px] xl:gap-[5px] border border-black-border ${className}`}
+      className={`xl:w-[223px] xl:h-[124px] w-[156px] h-[86px] bg-white rounded-[8.5px] xl:rounded-[12px] shadow-md font-inter px-[11px] py-2 xl:px-4 xl:py-3 flex flex-col gap-[14px] xl:gap-5 border border-black-border ${className}`}
     >
-      <div className="flex items-center gap-[14px] xl:gap-[5px]">
+      <div className="flex items-center gap-[14px] xl:gap-5">
         <Image
           src="/img/icons_instagram.png"
           width={20}
