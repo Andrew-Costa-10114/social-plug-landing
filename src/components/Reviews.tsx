@@ -95,16 +95,44 @@ const ReviewsData: ReviewItemProps[] = [
 ];
 
 export default function Reviews() {
-  const [count, setCount] = useState(6);
+  const [count, setCount] = useState(() => {
+    const width = window.innerWidth;
+    if (width >= 1440) return 6;
+    else return 4;
+  });
+
   const [flag, setFlag] = useState(false);
+  const [miniCount, setMiniCount] = useState(() => {
+    const width = window.innerWidth;
+    if (width >= 1440) return 6;
+    else return 4;
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      const width = window.innerWidth;
+      if (width >= 1440) {
+        setCount(6);
+        setMiniCount(6);
+      } else {
+        setCount(4);
+        setMiniCount(4);
+      }
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const maxLength = ReviewsData.length;
+
   useEffect(() => {
     setFlag(count >= maxLength);
   }, [count, maxLength]);
 
   return (
     <section className="w-full bg-background-dark">
-      <div className="max-w-[1440px] relative w-full px-4 pt-[24px] pb-[35px] xl:px-[75px] xl:pt-[56px] xl:pb-[48px] mx-auto flex flex-col">
+      <div className="max-w-[1440px] relative w-full px-[15px] pt-[24px] pb-[35px] xl:px-[75px] xl:pt-[56px] xl:pb-[48px] mx-auto flex flex-col">
         <Image
           src="/img/dot_bg_1.png"
           width={950}
@@ -117,7 +145,7 @@ export default function Reviews() {
             Customers
             <span className="text-primary"> Reviews</span>
           </h2>
-          <p className="xl:w-[45%] w-[85%] font-satoshi font-normal  xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
+          <p className="xl:w-[45%] w-[90%] font-satoshi font-normal  xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
             Read what our customers think about this service. We take your
             feedback seriously - help us improve by{" "}
             <span className="text-primary underline">leaving a review.</span>
@@ -130,7 +158,7 @@ export default function Reviews() {
             </p>
           </div>
         </div>
-        <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-4 mb-10 z-20">
+        <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-[13px] xl:gap-4 mb-4 xl:mb-10 z-20">
           {ReviewsData.slice(0, count).map((item, index) => (
             <ReviewItem
               title={item.title}
@@ -145,12 +173,12 @@ export default function Reviews() {
         <MainButton
           title="Read More"
           className={`w-max self-center ${flag && "hidden"}`}
-          handleClick={() => setCount(count + 6)}
+          handleClick={() => setCount(count + miniCount)}
         />
         <MainButton
           title="Read Less"
           className={`w-max self-center ${!flag && "hidden"}`}
-          handleClick={() => setCount(6)}
+          handleClick={() => setCount(miniCount)}
         />
       </div>
     </section>

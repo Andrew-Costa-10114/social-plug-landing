@@ -74,7 +74,7 @@ export default function Hero() {
     return;
   }
   return (
-    <section className="w-full bg-gradient-to-br from-[#E8FFF5] to-[#FFFFFF] mb-[24px]">
+    <section className="w-full bg-gradient-to-br from-[#E8FFF5] to-[#FFFFFF] mb-[5px] xl:mb-[24px]">
       <div className="max-w-[1440px] w-full xl:p-[70px] xl:mx-auto flex xl:flex-row flex-col xl:items-start xl:justify-between relative">
         <Image
           src="/img/dot_bg.png"
@@ -136,24 +136,24 @@ export default function Hero() {
               {PrevArrowButton}
             </button>
           </div>
-          <div className="xl:hidden w-full flex justify-between items-center bg-black mb-[12px] px-2">
+          <div className="xl:hidden w-full flex justify-between items-center bg-black mb-[12px] px-2 py-[6px]">
             <div className="flex gap-1 items-center">
-              {Key_Svg}
+              <div className="size-8">{Key_Svg}</div>
               <p className="font-satoshi font-normal text-[14px] leading-[12px] text-white/50">
                 No Password Requied
               </p>
             </div>
             <div className="flex gap-1 items-center">
-              {Delivery}
+              <div className="size-8">{Delivery}</div>
               <p className="font-satoshi font-normal text-[14px] leading-[12px] text-white/50">
                 Delivery Starts Instantly
               </p>
             </div>
           </div>
-          <div className="w-full flex items-center gap-[14px] relative overflow-hidden">
+          <div className="w-full flex items-center xl:px-0 px-[11px] relative overflow-hidden">
             <Swiper
               slidesPerView="auto"
-              spaceBetween={14}
+              spaceBetween={8}
               loop={true}
               speed={3000}
               modules={[FreeMode, Autoplay]}
@@ -174,7 +174,7 @@ export default function Hero() {
                     width={150}
                     height={150}
                     alt="user_image"
-                    className="rounded-[12px] size-full aspect-[1]"
+                    className="rounded-[12px] xl:mr-[6px] size-full aspect-[1]"
                   />
                 </SwiperSlide>
               ))}
@@ -183,7 +183,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full xl:w-[600px] px-4">
-          <div className="w-full flex items-center justify-center xl:justify-start gap-[10px] py-[10px] px-3 mb-4">
+          <div className="w-full flex items-center justify-center xl:justify-start gap-[10px] py-[5px] xl:py-[10px] xl:px-3 xl:mb-4 mb-3">
             <div className="flex gap-[5px]">
               {[...new Array(5)].map((_, index) => (
                 <Image
@@ -204,7 +204,7 @@ export default function Hero() {
               </span>
             </p>
           </div>
-          <h1 className="w-full font-h1 mb-4">
+          <h1 className="w-full font-h1 xl:mb-4 mb-3">
             Grow Your <br />
             Instagram Followers
           </h1>
@@ -213,13 +213,13 @@ export default function Hero() {
           </p>
           <div className="hidden xl:flex gap-2 mb-5 w-full">
             <div className="w-[232px] flex gap-2 items-center">
-              {Key_Svg}
+              <div className="size-6">{Key_Svg}</div>
               <p className="font-satoshi font-normal text-[16px] leading-[12px] text-text-dark text-start">
                 No Password Requied
               </p>
             </div>
             <div className="flex gap-2 items-center">
-              {Delivery}
+              <div className="size-6">{Delivery}</div>
               <p className="font-satoshi font-normal text-[16px] leading-[12px] text-text-dark text-start">
                 Delivery Starts Instantly
               </p>
@@ -261,7 +261,7 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <div className="flex w-full justify-between items-end mb-6">
+          <div className="flex w-full justify-between items-end xl:mb-6 mb-[14px]">
             <Cart
               type="gold"
               title="GOLD"
@@ -289,7 +289,7 @@ export default function Hero() {
           </div>
           <MainButton
             title="Add to Cart"
-            className="w-full mb-[15px]"
+            className="w-full xl:mb-[15px] mb-[10px]"
             handleClick={() => AddCartHandleClick()}
           />
           <Image
@@ -297,7 +297,7 @@ export default function Hero() {
             width={380}
             height={25}
             alt="payment_methods"
-            className="mb-[15px] self-center xl:w-[380px] xl:h-[25px] w-[300px] h-[20px]"
+            className="xl:mb-[15px] mb-[10px] self-center xl:w-[380px] xl:h-[25px] w-[292px] h-[20px]"
           />
           <div className="xl:w-[316px] h-[40px] xl:py-[12px] xl:px-[18px] p-[2px] xl:border-[3px] border-[1.5px] border-black-border rounded-[8px] flex items-center justify-between self-center">
             <Image

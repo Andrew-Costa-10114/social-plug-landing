@@ -58,16 +58,16 @@ const PricingCardData: PricingCardProps[] = [
 export default function OurPricing() {
   return (
     <section className="w-full bg-background-dark">
-      <div className="max-w-[1440px] w-full py-10 px-4 xl:px-[80px] xl:pt-[58px] xl:pb-[77px] mx-auto">
-        <div className="w-full flex flex-col items-center gap-2 xl:gap-4 mb-[48px]">
-          <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px]">
+      <div className="max-w-[1440px] w-full py-10 px-[14px] xl:py-0 xl:px-[80px] xl:pt-[58px] xl:pb-[77px] mx-auto">
+        <div className="w-full flex flex-col items-center gap-3 xl:gap-4 mb-6 xl:mb-[48px]">
+          <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px] mb-2 xl:mb-0">
             Our Pricing
           </div>
           <h2 className="font-h2">
             Choose your
             <span className="text-primary"> growth plan</span>
           </h2>
-          <p className="xl:w-[30%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
+          <p className="xl:w-[30%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black text-center">
             Pick a plan that fits your goals and start growing today—no password
             needed.
           </p>

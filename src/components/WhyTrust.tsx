@@ -16,7 +16,7 @@ interface ReviewCardProps {
 export default function WhyTrust() {
   return (
     <section className="w-full bg-white xl:mb-[36px]">
-      <div className="max-w-[1440px] w-full xl:py-[48px] mx-auto">
+      <div className="max-w-[1440px] w-full py-[24px] xl:py-[48px] mx-auto">
         <div className="flex flex-col items-center gap-2 xl:gap-4 mb-[24px] xl:mb-[54px]">
           <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px]">
             Why Trust SocialPlug?
@@ -25,7 +25,7 @@ export default function WhyTrust() {
             Real Results from
             <span className="text-primary"> Real People</span>
           </h2>
-          <p className="xl:w-[60%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-center text-black opacity-70">
+          <p className="xl:w-[60%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-center text-black">
             No bots. No shadowbans. Just real growth stories from real
             customers.
           </p>

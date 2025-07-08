@@ -5,6 +5,7 @@ import Summary from "./Summary";
 import SellingService from "./SellingService";
 import FreeTool from "./FreeTool";
 import Image from "next/image";
+import Company from "./Company";
 
 export default function Footer() {
   return (
@@ -15,6 +16,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row gap-16 justify-self-end">
             <SellingService />
             <FreeTool />
+          </div>
+          <div className="xl:hidden block">
+            <Company />
           </div>
           <FollowUs />
         </div>

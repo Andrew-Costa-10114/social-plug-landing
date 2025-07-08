@@ -35,7 +35,7 @@ export default function NavBar() {
 
   return (
     <div className="w-full bg-black">
-      <div className="max-w-[1440px] w-full h-[70px] xl:mx-auto flex relative justify-center overflow-hidden z-50">
+      <div className="max-w-[1440px] w-full h-[47px] xl:h-[70px] xl:mx-auto flex relative justify-center overflow-hidden z-50">
         <div className="flex justify-center items-center xl:gap-8 gap-2">
           <div className="flex items-center gap-2">
             <div className="xl:size-[34px] size-[20px]">{Solar_Sale}</div>

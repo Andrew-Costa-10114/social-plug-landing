@@ -22,7 +22,7 @@ const TheCompareData = [
     other: false,
   },
   {
-    description: "Guaranteed results or it&#39;s free",
+    description: "Guaranteed results or it's free",
     socialplug: true,
     other: false,
   },
@@ -42,9 +42,9 @@ interface TheCompareProps {
 export default function TheComparison() {
   return (
     <section className="w-full bg-background-dark">
-      <div className="max-w-[1440px] w-full px-[17px] pb-[47px] xl:pt-[42px] xl:pb-[82px] xl:px-[160px] mx-auto">
-        <div className="w-full flex flex-col items-center gap-2 xl:gap-4 mb-10 xl:mb-[57px]">
-          <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px]">
+      <div className="max-w-[1440px] w-full px-[11px] pt-[42px] pb-[47px] xl:pb-[82px] xl:px-[160px] mx-auto">
+        <div className="w-full flex flex-col items-center gap-3 xl:gap-4 mb-10 xl:mb-[57px]">
+          <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px] xl:mb-0 mb-3">
             The Comparison
           </div>
           <h2 className="font-h2">
@@ -52,7 +52,7 @@ export default function TheComparison() {
             <span className="text-primary">plug</span>
             compared to others
           </h2>
-          <p className="xl:w-[50%] w-[80%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black text-center">
+          <p className="xl:w-[50%] w-[100%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black text-center">
             See who dominated last month! 🚀 Explore our top-performing
             affiliates and get inspired to boost your earnings.
           </p>
@@ -94,7 +94,7 @@ export default function TheComparison() {
 function CompareTableRow({ description, socialplug, other }: TheCompareProps) {
   return (
     <div className="w-full flex items-center">
-      <p className="xl:w-[40%] w-[35%] pr-12 xl:pr-0 xl:pl-[35px] font-satoshi font-bold text-[11px] leading-[11px] xl:text-[20px] xl:leading-[28px] text-black">
+      <p className="xl:w-[40%] w-[35%] pr-[34px] xl:pr-0 xl:pl-[35px] font-satoshi font-bold text-[11px] leading-[11px] xl:text-[20px] xl:leading-[28px] text-black">
         {description}
       </p>
       <div className="xl:w-[20%] w-[25%] mx-auto flex justify-center">
