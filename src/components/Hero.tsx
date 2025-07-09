@@ -52,7 +52,7 @@ const HeroUserImages = [
   "/img/hero_user_2.png",
   "/img/hero_user_3.png",
   "/img/hero_user_4.png",
-  "/img/hero_user_1.png",
+  "/img/hero_user_3.png",
 ];
 
 const HeroUserImages_1 = [
@@ -74,7 +74,7 @@ export default function Hero() {
     return;
   }
   return (
-    <section className="w-full bg-gradient-to-br from-[#E8FFF5] to-[#FFFFFF] mb-[5px] xl:mb-[24px]">
+    <section className="w-full xl:bg-gradient-to-br xl:from-[#E8FFF5] xl:to-[#FFFFFF] xl:mb-[24px]">
       <div className="max-w-[1440px] w-full xl:p-[70px] xl:mx-auto flex xl:flex-row flex-col xl:items-start xl:justify-between relative">
         <Image
           src="/img/dot_bg.png"
@@ -299,7 +299,7 @@ export default function Hero() {
             alt="payment_methods"
             className="xl:mb-[15px] mb-[10px] self-center xl:w-[380px] xl:h-[25px] w-[292px] h-[20px]"
           />
-          <div className="xl:w-[316px] h-[40px] xl:py-[12px] xl:px-[18px] p-[2px] xl:border-[3px] border-[1.5px] border-black-border rounded-[8px] flex items-center justify-between self-center">
+          <div className="xl:w-[316px] h-[40px] xl:py-[12px] xl:px-[18px] p-[2px] border-[3px] border-black-border rounded-[12px] flex items-center justify-between self-center">
             <Image
               src="/img/golden_mark.png"
               width={32}
@@ -307,7 +307,7 @@ export default function Hero() {
               alt="golden_mark"
               className="xl:size-[32px] size-[24px]"
             />
-            <p className="font-satoshi font-medium text-[11px] xl:text-[15px] leading-[8px] xl:leading-[11px] text-black uppercase tracking-[-1px]">
+            <p className="font-satoshi font-medium text-[11px] xl:text-[15px] leading-[8px] xl:leading-[11px] text-black uppercase">
               Guaranteed Results or it&#39;s free!
             </p>
           </div>
