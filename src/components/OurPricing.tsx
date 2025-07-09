@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { MainButton } from "./Button";
 
 interface PricingCardProps {
   type: string;
