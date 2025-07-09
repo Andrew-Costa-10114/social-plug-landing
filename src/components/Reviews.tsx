@@ -137,14 +137,14 @@ export default function Reviews() {
             Customers
             <span className="text-primary"> Reviews</span>
           </h2>
-          <p className="xl:w-[45%] w-[90%] font-satoshi font-normal  xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
+          <p className="xl:w-[40%] w-[90%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black/70 text-center">
             Read what our customers think about this service. We take your
             feedback seriously - help us improve by{" "}
             <span className="text-primary underline">leaving a review.</span>
           </p>
           <div className="flex gap-2 items-center">
             <Image src="/img/star.png" width={24} height={24} alt="star" />
-            <p className="font-satoshi font-medium text-[16px] leading-[12px] text-black">
+            <p className="font-satoshi font-medium text-[16px] leading-[12px] text-text-dark">
               Rated <span className="text-primary">4.8/5</span> from over 1000+
               reviews
             </p>
@@ -192,7 +192,7 @@ function ReviewItem({
       <p className="font-satoshi font-normal text-[14px] leading-[18px] text-black text-center mb-6">
         {comment}
       </p>
-      <div className="flex gap-2 items-center mb-4">
+      <div className="flex gap-[6px] xl:gap-2 items-center mb-4">
         {[...new Array(rating)].map((_, index) => (
           <Image
             src="/img/star.png"

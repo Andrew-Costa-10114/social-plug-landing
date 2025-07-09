@@ -48,11 +48,11 @@ interface CartType {
 }
 
 const HeroUserImages = [
-  "/img/hero_user_0.png",
   "/img/hero_user_1.png",
   "/img/hero_user_2.png",
   "/img/hero_user_3.png",
   "/img/hero_user_4.png",
+  "/img/hero_user_1.png",
 ];
 
 const HeroUserImages_1 = [
@@ -288,7 +288,7 @@ export default function Hero() {
             />
           </div>
           <MainButton
-            title="Add to Cart"
+            title="Add to cart"
             className="w-full xl:mb-[15px] mb-[10px]"
             handleClick={() => AddCartHandleClick()}
           />
@@ -453,13 +453,13 @@ function Cart({
   return (
     <div className="xl:w-[187px] w-[115px]">
       {type == "platinum" && (
-        <div className="w-full h-[30px] mb-[-10px] xl:rounded-t-[16px] rounded-t-[10px] xl:border-[3px] border-[1.5px] border-b-transparent border-black-border font-clash text-[12.4px] font-semibold leading-[15px] text-black text-center">
+        <div className="w-full xl:h-[30px] h-[25px] mb-[-10px] xl:rounded-t-[16px] rounded-t-[10px] xl:border-[3px] border-[1.5px] border-b-transparent border-black-border font-clash text-[7.5px] xl:text-[12.4px] font-semibold leading-[9px] xl:leading-[15px] text-black text-center">
           Best Value
         </div>
       )}
       <div className="xl:rounded-[16px] rounded-[10px] xl:border-[3px] border-[1.5px] border-black-border shadow-md overflow-hidden">
         <div
-          className={`relative xl:size-[181px] size-[109px] ${
+          className={`relative xl:size-[181px] size-[112px] ${
             type == "platinum" &&
             "bg-primary xl:border-[3px] border-[1.5px] border-primary xl:rounded-[16px] rounded-[10px] overflow-hidden"
           }`}
@@ -486,7 +486,7 @@ function Cart({
               <p className="font-clash font-semibold text-[18px] leading-[22px] xl:text-[28px] xl:leading-[34px] text-black">
                 {current_value}
               </p>
-              <p className="absolute xl:top-[6.5px] xl:right-[12px] top-[4px] right-[6px] font-clash font-semibold text-[9px] leading-[11px] xl:text-[14.24px] xl:leading-[18px] text-black opacity-40">
+              <p className="absolute xl:top-[6.5px] xl:right-[12px] top-[4px] right-[6px] font-clash font-semibold text-[9px] leading-[11px] xl:text-[14.24px] xl:leading-[18px] line-through text-black opacity-40">
                 {start_value}
               </p>
             </div>

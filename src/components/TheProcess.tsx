@@ -33,7 +33,7 @@ export default function TheProcess() {
             How It Actually
             <span className="text-primary"> Works?</span>
           </h2>
-          <p className="xl:w-[30%] w-[85%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black text-center">
+          <p className="xl:w-[25%] w-[85%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black xl:text-black/70 text-center">
             Here&#39;s how it works—simple, quick, and hassle-free to get
             started with our social media services.
           </p>
@@ -88,7 +88,7 @@ function ProcessStep({ icon, title, description, count }: ProcessStepProps) {
         <h3 className="font-clash font-semibold xl:text-[32px] xl:leading-[39px] text-[20px] leading-[25px] text-black text-center">
           {title}
         </h3>
-        <p className="w-[95%] text-black text-[16px] text-center leading-6 font-satoshi font-normal">
+        <p className="w-[80%] text-black text-[16px] text-center leading-6 font-satoshi font-normal">
           {description}
         </p>
       </div>

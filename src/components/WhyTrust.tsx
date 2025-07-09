@@ -67,11 +67,11 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[640px] !w-[320px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
-                title="No Shadownban after 3 months!"
-                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
-                userName="Sarah M."
-                userType="Fashion Blogger"
+                imgURL="/img/review_img_3.png"
+                title="Didn't even need my password. So much safer than other sites"
+                description="dn&#39;t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
+                userName="Mike D."
+                userType="Musician"
               />
             </SwiperSlide>
           </Swiper>
@@ -96,25 +96,25 @@ export default function WhyTrust() {
           >
             <SwiperSlide className="xl:!w-[640px] !w-[320px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
-                title="No Shadownban after 3 months!"
-                description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
-                userName="Sarah M."
-                userType="Fashion Blogger"
+                imgURL="/img/review_img_4.png"
+                title="The followers actually look like real people with real profiles"
+                description="The followers actually look real—with proper profiles, posts, and stories. Not the usual fake-looking ones you see elsewhere."
+                userName="Jessica L."
+                userType="Small Business Owner"
               />
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[640px] !w-[320px]">
               <ReviewCard
-                imgURL="/img/review_img_2.png"
-                title="Didn't even need my password. So much safer than other sites"
-                description="dn&#39;t even need to share my password, which instantly felt way safer than other services. Everything just worked without risking my account."
-                userName="Mike D."
-                userType="Musician"
+                imgURL="/img/review_img_5.png"
+                title="Got my first brand collab within 2 weeks of hitting 5K!"
+                description="I landed my first brand collab just 2 weeks after hitting 5K. The growth felt real, and so did the opportunities."
+                userName="Amanda K."
+                userType="Fitness Coach"
               />
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[640px] !w-[320px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
+                imgURL="/img/review_img_6.png"
                 title="No Shadownban after 3 months!"
                 description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."

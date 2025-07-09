@@ -159,7 +159,9 @@ function PricingCard({
         ))}
       </div>
       <div className="flex flex-col gap-3 items-center">
-        <MainButton title="Get Started" className="w-full" />
+        <button className="w-full rounded-[8px] py-3 bg-primary font-clash font-semibold text-[20px] text-white leading-[25px]">
+          Get Started
+        </button>
         <Image
           src="/img/payments.png"
           width={287}

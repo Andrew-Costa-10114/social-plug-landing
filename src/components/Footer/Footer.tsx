@@ -9,8 +9,8 @@ import Company from "./Company";
 
 export default function Footer() {
   return (
-    <section className="w-full bg-black bg-center-top bg-no-repeat bg-[size:1234px] bg-[image:url(https://cdn.prod.website-files.com/628d4467de238a5806753c9b/675716e51edb39c901338ebe_footer_bg.webp)]">
-      <div className="max-w-[1440px] w-full px-4 pt-[43px] xl:px-0 xl:pt-[48px] xl:pl-[48px] xl:pr-[72px] mx-auto">
+    <section className="w-full bg-black bg-center-top bg-no-repeat bg-[size:600px] xl:bg-[size:1234px] bg-[image:url(https://cdn.prod.website-files.com/628d4467de238a5806753c9b/675716e51edb39c901338ebe_footer_bg.webp)]">
+      <div className="relative max-w-[1440px] w-full px-4 pt-[43px] xl:px-0 xl:pt-[48px] xl:pl-[48px] xl:pr-[72px] mx-auto">
         <div className="flex flex-col gap-10 md:gap-0 md:grid md:grid-cols-[1fr_1.5fr] lg:grid-cols-[1fr_2fr_1fr] pb-14 border-solid border-b border-white/40 gap-x-8 md:gap-x-16">
           <Summary />
           <div className="flex flex-col md:flex-row gap-16 justify-self-end">
