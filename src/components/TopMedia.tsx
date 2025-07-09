@@ -55,7 +55,7 @@ export default function TopMedia() {
             className="absolute right-[58px] top-[38px] hidden xl:block"
           />
         </div>
-        <div className="flex flex-col gap-7 px-4 py-6 xl:py-0 xl:px-0 xl:p-10 items-center">
+        <div className="flex flex-col gap-7 px-4 py-6 xl:p-10 items-center">
           <p className="font-satoshi font-medium text-[16px] xl:text-[20px] text-black/50 uppercase">
             Featured in Top Media
           </p>
