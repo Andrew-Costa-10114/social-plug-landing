@@ -49,7 +49,7 @@ export default function TheComparison() {
           </div>
           <h2 className="font-h2">
             Social
-            <span className="text-primary">plug</span>
+            <span className="text-primary">plug </span>
             compared to others
           </h2>
           <p className="xl:w-[50%] w-[100%] font-satoshi font-normal xl:text-[16px] text-[14px] leading-[18px] text-black text-center">

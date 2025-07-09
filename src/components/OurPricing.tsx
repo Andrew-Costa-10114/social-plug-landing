@@ -135,7 +135,9 @@ function PricingCard({
           </span>
         </p>
       </div>
-      <div className="w-full h-[1px] bg-black opacity-30" />
+      <div
+        className={`w-full h-[1px] ${popular ? "bg-white/30" : "bg-black/30"}`}
+      />
       <div className="flex flex-col gap-4">
         {description.map((item, index) => (
           <div className="flex items-center gap-2" key={index}>

@@ -138,13 +138,13 @@ export default function Hero() {
           </div>
           <div className="xl:hidden w-full flex justify-between items-center bg-black mb-[12px] px-2 py-[6px]">
             <div className="flex gap-1 items-center">
-              <div className="size-8">{Key_Svg}</div>
+              <div className="size-6 p-1">{Key_Svg}</div>
               <p className="font-satoshi font-normal text-[14px] leading-[12px] text-white/50">
                 No Password Requied
               </p>
             </div>
             <div className="flex gap-1 items-center">
-              <div className="size-8">{Delivery}</div>
+              <div className="size-6 p-1">{Delivery}</div>
               <p className="font-satoshi font-normal text-[14px] leading-[12px] text-white/50">
                 Delivery Starts Instantly
               </p>
