@@ -12,13 +12,13 @@ export default function RealTicket() {
             width={105}
             height={105}
             alt="instagram_beauty"
-            className="size-[52.5px] xl:size-[105px]"
+            className="size-[52.5px] md:size-[80px] xl:size-[105px]"
           />
           <div className="flex flex-col gap-2">
-            <p className="font-satoshi font-medium text-[7px] leading-[5px] xl:text-[14px] xl:leading-[10px] text-white/70 uppercase">
+            <p className="font-satoshi font-medium text-[7px] leading-[5px] md:text-[12px] md:leading-[10px] xl:text-[14px] xl:leading-[10px] text-white/70 uppercase">
               Break the algorithm. Get real results.
             </p>
-            <p className="font-clash font-semibold text-[16px] leading-[15.5px] xl:text-[32px] xl:leading-[31px] text-white">
+            <p className="font-clash font-semibold text-[16px] leading-[15.5px] md:text-[24px] md:leading-[24px] xl:text-[32px] xl:leading-[31px] text-white">
               Are you ready to hack the system and get the engagement you
               deserve?
             </p>
@@ -26,7 +26,7 @@ export default function RealTicket() {
         </div>
         <MainButton
           title="See Pricing"
-          className="xl:w-[204px] w-[126px] ml-[62px] ml:pl-0 z-20"
+          className="xl:w-[204px] md:w-[180px] w-[126px] ml-[62px] ml:pl-0 z-20"
         />
         <Image
           src="/img/grid_bg.png"

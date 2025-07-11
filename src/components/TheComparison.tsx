@@ -57,7 +57,7 @@ export default function TheComparison() {
             affiliates and get inspired to boost your earnings.
           </p>
         </div>
-        <div className="relative w-full flex flex-col bg-white/50 rounded-[16px] border-[2px] border-white p-3 pb-[20px] xl:px-[30px] xl:pt-[18px] xl:pb-[55px]">
+        <div className="relative w-full md:w-[80%] xl:w-full md:justify-self-center flex flex-col bg-white/50 rounded-[16px] border-[2px] border-white p-3 pb-[20px] xl:px-[30px] xl:pt-[18px] xl:pb-[55px]">
           <div className="w-full flex z-20">
             <p className="xl:w-[40%] w-[35%]"></p>
             <div className="xl:w-[20%] w-[25%] mx-auto flex justify-center">
@@ -66,10 +66,10 @@ export default function TheComparison() {
                 width={164}
                 height={32}
                 alt="title_logo"
-                className="xl:w-[164px] xl:h-[32px] w-[82px] h-[16px]"
+                className="xl:w-[164px] xl:h-[32px] md:w-[123px] md:h-[24px] w-[82px] h-[16px]"
               />
             </div>
-            <p className="w-[40%] px-2 xl:px-0 mx-auto font-clash font-semibold text-[12px] leading-[15px] xl:text-[20px] xl:leading-[25px] text-black text-center">
+            <p className="w-[40%] px-2 xl:px-0 mx-auto font-clash font-semibold text-[12px] leading-[15px] md:text-[16px] md:leading-[18px] xl:text-[20px] xl:leading-[25px] text-black text-center">
               Other Instagram Growth Business
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function TheComparison() {
 function CompareTableRow({ description, socialplug, other }: TheCompareProps) {
   return (
     <div className="w-full flex items-center">
-      <p className="xl:w-[40%] w-[35%] pr-[34px] xl:pr-0 xl:pl-[35px] font-satoshi font-bold text-[11px] leading-[11px] xl:text-[20px] xl:leading-[28px] text-black">
+      <p className="xl:w-[40%] w-[35%] pr-[34px] xl:pr-0 xl:pl-[35px] font-satoshi font-bold text-[11px] leading-[11px] md:text-[16px] md:leading-[16px] xl:text-[20px] xl:leading-[28px] text-black">
         {description}
       </p>
       <div className="xl:w-[20%] w-[25%] mx-auto flex justify-center">
@@ -105,7 +105,7 @@ function CompareTableRow({ description, socialplug, other }: TheCompareProps) {
           width={35}
           height={35}
           alt={`${socialplug}`}
-          className="xl:size-[35px] size-[20px]"
+          className="xl:size-[35px] md:size-7 size-[20px]"
         />
       </div>
       <div className="w-[40%] mx-auto flex justify-center">
@@ -114,7 +114,7 @@ function CompareTableRow({ description, socialplug, other }: TheCompareProps) {
           width={35}
           height={35}
           alt={`${other}`}
-          className="xl:size-[35px] size-[20px]"
+          className="xl:size-[35px] md:size-7 size-[20px]"
         />
       </div>
     </div>

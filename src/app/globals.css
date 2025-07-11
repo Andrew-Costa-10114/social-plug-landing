@@ -35,10 +35,11 @@ body {
     text-wrap: balance;
   }
   .font-h1 {
-    @apply font-clash font-semibold text-[24px] leading-[26px] xl:text-[48px] xl:text-start text-center xl:leading-[52px] text-black;
+    @apply font-clash font-semibold text-[20px] leading-[22px] sm:text-[24px] sm:leading-[26px] md:text-[32px] md:leading-[36px] lg:text-[40px] lg:leading-[44px] xl:text-[48px] xl:leading-[52px] text-black text-center md:text-start;
   }
+  
   .font-h2 {
-    @apply font-clash font-semibold xl:text-[32px] xl:leading-[39px] text-[20px] leading-[25px] text-black;
+    @apply font-clash font-semibold text-[18px] leading-[22px] sm:text-[20px] sm:leading-[25px] md:text-[24px] md:leading-[28px] lg:text-[28px] lg:leading-[32px] xl:text-[32px] xl:leading-[39px] text-black;
   }
 
 }

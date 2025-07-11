@@ -46,7 +46,7 @@ export default function TheProcess() {
             height={100}
             className="absolute top-[10%] left-[20%] w-[60%] hidden xl:block"
           />
-          <div className="w-full flex xl:flex-row flex-col gap-[64px] xl:gap-5">
+          <div className="w-full flex md:flex-row flex-col gap-[64px] xl:gap-5">
             {HowTo.map((item, index) => (
               <ProcessStep
                 icon={item.icon}

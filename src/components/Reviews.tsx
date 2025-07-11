@@ -103,7 +103,7 @@ export default function Reviews() {
   useEffect(() => {
     function handleResize() {
       const width = window.innerWidth;
-      if (width >= 1440) {
+      if (width >= 768) {
         setCount(6);
         setMiniCount(6);
       } else {
@@ -150,7 +150,7 @@ export default function Reviews() {
             </p>
           </div>
         </div>
-        <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-[13px] xl:gap-4 mb-4 xl:mb-10 z-20">
+        <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-[13px] xl:gap-4 mb-4 xl:mb-10 z-20">
           {ReviewsData.slice(0, count).map((item, index) => (
             <ReviewItem
               title={item.title}

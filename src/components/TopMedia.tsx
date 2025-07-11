@@ -19,7 +19,7 @@ export default function TopMedia() {
             width={122}
             height={122}
             alt="instagram_3D"
-            className="z-20 size-[61px] xl:size-[122px]"
+            className="z-20 size-[61px] md:size-[80px] xl:size-[122px]"
           />
           <Image
             src="/img/golden_light.png"
@@ -30,11 +30,11 @@ export default function TopMedia() {
           />
           <div className="absolute left-0 w-[102.5px] h-[70px] xl:w-[205px] xl:h-[140px] rotate-[-15.52deg] bg-[#FFF080] opacity-[26%] blur-xl z-10" />
           <div className="flex flex-col gap-4 xl:w-[50%]">
-            <p className="font-clash font-semibold text-[16px] leading-[15.5px] xl:text-[32px] xl:leading-[31px] bg-gradient-to-r from-[#F09819] to-[#EDDE5D] text-transparent bg-clip-text inline-block">
+            <p className="font-clash font-semibold text-[16px] leading-[15.5px] md:text-[24px] md:leading-[22px] xl:text-[32px] xl:leading-[31px] bg-gradient-to-r from-[#F09819] to-[#EDDE5D] text-transparent bg-clip-text inline-block">
               Guaranteed Results
               <span className="text-white"> or it&#39;s Free!</span>
             </p>
-            <p className="w-[90%] xl:w-[100%] font-satoshi font-medium text-[9px] leading-[9.5px] xl:text-[18px] xl:leading-[18px] text-white/80">
+            <p className="w-[90%] xl:w-[100%] font-satoshi font-medium text-[9px] leading-[9.5px] md:text-[14px] md:leading-[15px] xl:text-[18px] xl:leading-[18px] text-white/80">
               The risk is on us. Try our service for 90 days — if your account
               doesn&#39;t grow, we&#39;ll give you a full refund. No questions
               asked.
@@ -56,22 +56,22 @@ export default function TopMedia() {
           />
         </div>
         <div className="flex flex-col gap-7 px-4 py-6 xl:p-10 items-center">
-          <p className="font-satoshi font-medium text-[16px] xl:text-[20px] text-black/50 uppercase">
+          <p className="font-satoshi font-medium text-[16px] md:text-[18px] xl:text-[20px] text-black/50 uppercase">
             Featured in Top Media
           </p>
-          <div className="hidden xl:flex justify-between gap-[52px] items-center">
+          <div className="hidden lg:flex justify-between gap-5 xl:gap-[52px] items-center">
             {TopMediaImgURLs.map((item, index) => (
               <Image
                 src={item}
                 width={175}
                 height={28}
                 alt="top_media_img"
-                className="size-full"
+                className="xl:size-full size-[40%]"
                 key={index}
               />
             ))}
           </div>
-          <div className="xl:hidden flex flex-col gap-5">
+          <div className="lg:hidden flex flex-col gap-5">
             <div className="flex justify-between gap-5 items-center">
               {TopMediaImgURLs.slice(0, 3).map((item, index) => (
                 <div className="h-[20px]" key={index}>

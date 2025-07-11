@@ -83,7 +83,7 @@ export default function FreeTool() {
   ];
 
   return (
-    <div className="w-full xl:w-[175px] grid grid-cols-2 gap-5 xl:flex xl:flex-col">
+    <div className="w-full md:w-[40%] xl:w-[175px] grid grid-cols-2 gap-5 xl:flex xl:flex-col">
       <Section type="quick_links" title="Quick Links" links={quickLinks} />
       <Section type="free_tools" title="Free Tools" links={freeTools} />
     </div>

@@ -4,7 +4,7 @@ import Company from "./Company";
 
 export default function Summary() {
   return (
-    <div className="flex flex-col gap-5 w-full md:max-w-[280px] h-full justify-between pb-7">
+    <div className="flex flex-col gap-5 w-full md:w-[40%] xl:w-full md:max-w-[280px] h-full justify-between pb-7">
       <div className="flex flex-col gap-4">
         <Image
           width={164}

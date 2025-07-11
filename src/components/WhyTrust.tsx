@@ -47,7 +47,7 @@ export default function WhyTrust() {
             simulateTouch={false}
             className="mySwiper"
           >
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_1.png"
                 title="No Shadownban after 3 months!"
@@ -56,7 +56,7 @@ export default function WhyTrust() {
                 userType="Fashion Blogger"
               />
             </SwiperSlide>
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_2.png"
                 title="Didn't even need my password. So much safer than other sites"
@@ -65,7 +65,7 @@ export default function WhyTrust() {
                 userType="Musician"
               />
             </SwiperSlide>
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_3.png"
                 title="Didn't even need my password. So much safer than other sites"
@@ -94,7 +94,7 @@ export default function WhyTrust() {
             simulateTouch={false}
             className="mySwiper"
           >
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_4.png"
                 title="The followers actually look like real people with real profiles"
@@ -103,7 +103,7 @@ export default function WhyTrust() {
                 userType="Small Business Owner"
               />
             </SwiperSlide>
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_5.png"
                 title="Got my first brand collab within 2 weeks of hitting 5K!"
@@ -112,7 +112,7 @@ export default function WhyTrust() {
                 userType="Fitness Coach"
               />
             </SwiperSlide>
-            <SwiperSlide className="xl:!w-[640px] !w-[320px]">
+            <SwiperSlide className="xl:!w-[640px] md:!w-[420px] lg:!w-[540px] !w-[320px]">
               <ReviewCard
                 imgURL="/img/review_img_6.png"
                 title="No Shadownban after 3 months!"
@@ -136,34 +136,34 @@ function ReviewCard({
   userType,
 }: ReviewCardProps) {
   return (
-    <div className="bg-background-light xl:w-[640px] xl:h-[340px] w-[320px] h-[170px] rounded-[16px] border-[2px] border-white flex xl:gap-4 gap-2 xl:p-4 p-2 shadow-xl">
+    <div className="bg-background-light xl:w-[640px] xl:h-[340px] md:w-[420px] lg:w-[540px] lg:h-[270px] md:h-[200px] w-[320px] h-[170px] rounded-[16px] border-[2px] border-white flex xl:gap-4 gap-2 xl:p-4 p-2 shadow-xl">
       <Image
         src={imgURL}
         width={250}
         height={305}
         alt="review_img"
-        className="xl:w-[250px] xl:h-[305px] w-[125px] h-[152.5px]"
+        className="xl:w-[250px] xl:h-[305px] md:w-[40%] md:h-auto w-[125px] h-[152.5px]"
       />
       <div className="w-full flex flex-col justify-between">
         <div className="flex flex-col xl:gap-6 gap-3">
-          <div className="xl:size-[32px] size-[16px]">{BigQuote}</div>
+          <div className="xl:size-[32px] md:size-6 size-[16px]">{BigQuote}</div>
           <div className="flex flex-col xl:gap-4 gap-2">
-            <p className="font-clash font-semibold xl:text-[20px] xl:leading-[25px] text-[10px] leading-[12px] text-black">
+            <p className="font-clash font-semibold xl:text-[20px] xl:leading-[25px] md:text-[16px] md:leading-[20px] text-[10px] leading-[12px] text-black">
               {title}
             </p>
-            <p className="font-satoshi font-medium text-[9px] leading-[12.5px] xl:text-[18px] xl:leading-[25px] text-black">
+            <p className="font-satoshi font-medium text-[9px] leading-[12.5px] md:text-[14px] md:leading-[16px] xl:text-[18px] xl:leading-[25px] text-black">
               {description}
             </p>
           </div>
         </div>
         <div className="flex xl:gap-2 gap-1 items-center w-full">
-          <p className="font-satoshi font-bold text-[12px] leading-[15px] xl:text-[24px] xl:leading-[30px] text-black">
+          <p className="font-satoshi font-bold text-[12px] leading-[15px] md:text-[18px] md:leading-[20px] xl:text-[24px] xl:leading-[30px] text-black">
             {userName}
           </p>
           <div className="w-[18px] h-[18px] flex items-center justify-center">
             <div className="w-[8px] h-[8px] bg-black rounded-full opacity-20"></div>
           </div>
-          <p className="font-satoshi font-medium text-[9px] leading-[12.5px] xl:text-[18px] xl:leading-[25px] text-black opacity-60">
+          <p className="font-satoshi font-medium text-[9px] leading-[12.5px] md:text-[14px] md:leading-[16px] xl:text-[18px] xl:leading-[25px] text-black opacity-60">
             {userType}
           </p>
         </div>
