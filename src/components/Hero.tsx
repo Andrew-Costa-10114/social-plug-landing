@@ -265,7 +265,7 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <div className="flex w-full justify-between sm:gap-4 sm:justify-center md:justify-between items-end md:mb-6 mb-[14px]">
+          <div className="flex flex-col items-center sm:flex-row w-full justify-between sm:gap-4 sm:justify-center md:justify-between sm:items-end md:mb-6 mb-[14px]">
             <Cart
               type="gold"
               title="GOLD"
