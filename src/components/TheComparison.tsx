@@ -42,7 +42,7 @@ interface TheCompareProps {
 export default function TheComparison() {
   return (
     <section className="w-full bg-background-dark">
-      <div className="max-w-[1440px] w-full px-[11px] pt-[42px] pb-[47px] xl:pb-[82px] xl:px-[160px] mx-auto">
+      <div className="max-w-[1440px] w-full px-[11px] pt-[42px] pb-[47px] xl:pb-[82px] xl:px-[160px] mx-auto flex flex-col items-center">
         <div className="w-full flex flex-col items-center gap-3 xl:gap-4 mb-10 xl:mb-[57px]">
           <div className="bg-secondary rounded-full py-[14px] px-5 border-[2px] border-white shadow-md font-satoshi font-bold text-[14px] leading-[10px] xl:text-[16px] xl:leading-[12px] text-primary tracking-[-1px] xl:mb-0 mb-3">
             The Comparison
@@ -57,7 +57,7 @@ export default function TheComparison() {
             affiliates and get inspired to boost your earnings.
           </p>
         </div>
-        <div className="relative w-full md:w-[80%] xl:w-full md:justify-self-center flex flex-col bg-white/50 rounded-[16px] border-[2px] border-white p-3 pb-[20px] xl:px-[30px] xl:pt-[18px] xl:pb-[55px]">
+        <div className="relative w-full md:w-[80%] xl:w-full flex flex-col bg-white/50 rounded-[16px] border-[2px] border-white p-3 pb-[20px] xl:px-[30px] xl:pt-[18px] xl:pb-[55px]">
           <div className="w-full flex z-20">
             <p className="xl:w-[40%] w-[35%]"></p>
             <div className="xl:w-[20%] w-[25%] mx-auto flex justify-center">
