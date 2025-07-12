@@ -71,7 +71,7 @@ export default function OurPricing() {
             needed.
           </p>
         </div>
-        <div className="flex lg:flex-row flex-col gap-6">
+        <div className="flex lg:flex-row flex-col gap-6 items-center justify-center">
           {PricingCardData.map((item, index) => (
             <PricingCard
               type={item.type}
