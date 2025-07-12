@@ -100,7 +100,7 @@ function CompareTableRow({ description, socialplug, other }: TheCompareProps) {
       </p>
       <div className="xl:w-[20%] w-[25%] mx-auto flex justify-center">
         <div className="xl:size-[35px] md:size-7 size-[20px]">
-          {other ? False_Icon : True_Icon}
+          {socialplug ? True_Icon : False_Icon}
         </div>
       </div>
       <div className="w-[40%] mx-auto flex justify-center">
