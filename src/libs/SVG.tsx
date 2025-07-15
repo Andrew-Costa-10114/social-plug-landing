@@ -603,8 +603,8 @@ export const True_Icon = (
         height="28.7621"
         rx="5.27745"
         fill="white"
-        fill-opacity="0.16"
-        shape-rendering="crispEdges"
+        fillOpacity="0.16"
+        shapeRendering="crispEdges"
       />
       <rect
         x="1.06379"
@@ -613,8 +613,8 @@ export const True_Icon = (
         height="28.6345"
         rx="5.21367"
         stroke="url(#paint1_linear_192_23823)"
-        stroke-width="0.12757"
-        shape-rendering="crispEdges"
+        strokeWidth="0.12757"
+        shapeRendering="crispEdges"
       />
     </g>
     <g filter="url(#filter2_d_192_23823)">
@@ -631,9 +631,9 @@ export const True_Icon = (
         width="29.4544"
         height="29.4536"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feBlend
           mode="normal"
           in="SourceGraphic"
@@ -672,9 +672,9 @@ export const True_Icon = (
         width="43.164"
         height="43.1645"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -731,9 +731,9 @@ export const True_Icon = (
         width="17.9427"
         height="14.1173"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -767,7 +767,7 @@ export const True_Icon = (
         y2="26.6304"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#01C573" />
+        <stop stopColor="#01C573" />
         <stop offset="1" />
       </linearGradient>
       <linearGradient
@@ -778,8 +778,8 @@ export const True_Icon = (
         y2="38.9846"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.14" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.14" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </svg>
@@ -828,8 +828,8 @@ export const False_Icon = (
         height="28.7621"
         rx="5.27745"
         fill="white"
-        fill-opacity="0.16"
-        shape-rendering="crispEdges"
+        fillOpacity="0.16"
+        shapeRendering="crispEdges"
       />
       <rect
         x="1.06379"
@@ -838,8 +838,8 @@ export const False_Icon = (
         height="28.6345"
         rx="5.21367"
         stroke="url(#paint1_linear_192_23848)"
-        stroke-width="0.12757"
-        shape-rendering="crispEdges"
+        strokeWidth="0.12757"
+        shapeRendering="crispEdges"
       />
     </g>
     <path
@@ -854,9 +854,9 @@ export const False_Icon = (
         width="29.4544"
         height="29.4536"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feBlend
           mode="normal"
           in="SourceGraphic"
@@ -895,9 +895,9 @@ export const False_Icon = (
         width="43.164"
         height="43.1645"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -955,8 +955,8 @@ export const False_Icon = (
         y2="26.6304"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FF543E" />
-        <stop offset="1" stop-color="white" />
+        <stop stopColor="#FF543E" />
+        <stop offset="1" stopColor="white" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_192_23848"
@@ -966,8 +966,8 @@ export const False_Icon = (
         y2="38.9846"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.14" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.14" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </svg>
