@@ -13,11 +13,12 @@ import {
 import Image from "next/image";
 import { MainButton } from "./Button";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Autoplay, Navigation } from "swiper/modules";
+// import { FreeMode, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { useEffect, useState } from "react";
+import { Navigation } from "swiper/modules";
 
 interface ReachDataType {
   accounts: string;
