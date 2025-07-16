@@ -1,5 +1,4 @@
 import { PricingTickBlue, PricingTickGrey } from "@/libs/SVG";
-import Image from "next/image";
 
 interface PricingCardProps {
   type: string;
