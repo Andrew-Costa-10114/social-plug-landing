@@ -341,10 +341,17 @@ export default function Hero() {
           />
           <Image
             src="/img/payments.png"
-            width={380}
+            width={381}
             height={26}
             alt="payment_methods"
-            className="xl:mb-[15px] mb-[10px] self-center xl:w-[380px] xl:h-[26px] w-[292.3px] h-[20px]"
+            className="xl:mb-[15px] mb-[10px] self-center xl:w-[381px] xl:h-[26px] hidden xl:block"
+          />
+          <Image
+            src="/img/payments_1.png"
+            width={294}
+            height={21}
+            alt="payment_methods"
+            className="xl:hidden w-[294px] h-[21px] mb-[10px]"
           />
           <div className="xl:w-[340px] h-[31px] xl:py-[12px] xl:px-[18px] p-[2px] border-[3px] border-black-border rounded-[6px] flex items-center justify-between self-center">
             <Image
