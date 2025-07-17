@@ -1,4 +1,5 @@
 import { PricingTickBlue, PricingTickGrey } from "@/libs/SVG";
+import Image from "next/image";
 
 interface PricingCardProps {
   type: string;
@@ -165,7 +166,13 @@ function PricingCard({
           alt="payment_methods"
           className="w-[287px] h-[20px]"
         /> */}
-        <img src="/img/payments.png" className="h-[20px]" />
+        <Image
+          src="/img/payments_1.png"
+          width={294}
+          height={21}
+          alt="payment_methods"
+          className="w-[294px] h-[21px]"
+        />
       </div>
     </div>
   );
