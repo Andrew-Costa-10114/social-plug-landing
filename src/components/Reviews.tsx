@@ -194,7 +194,7 @@ function ReviewItem({
         {comment}
       </p>
       <div className="flex gap-[6px] xl:gap-2 items-center mb-4">
-        {[...new Array(5)].map((_, index) => (
+        {[...new Array(rating)].map((_, index) => (
           <div key={index} className="md:size-[24px] size-[16px]">
             {StarIcon}
           </div>
