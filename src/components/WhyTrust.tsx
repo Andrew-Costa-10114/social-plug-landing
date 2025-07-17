@@ -53,7 +53,7 @@ export default function WhyTrust() {
           >
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
+                imgURL="/img/review_img_1.svg"
                 title="No Shadownban after 3 months!"
                 description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
@@ -80,7 +80,7 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
+                imgURL="/img/review_img_1.svg"
                 title="No Shadownban after 3 months!"
                 description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
@@ -107,7 +107,7 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_1.png"
+                imgURL="/img/review_img_1.svg"
                 title="No Shadownban after 3 months!"
                 description="It&#39;s been over 3 months and I haven&#39;t had any shadowban issues since using this. My reach is steady, engagement&#39;s up, and I&#39;m finally growing without random drops."
                 userName="Sarah M."
@@ -163,7 +163,7 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_5.png"
+                imgURL="/img/review_img_5.svg"
                 title="Got my first brand collab within 2 weeks of hitting 5K!"
                 description="I landed my first brand collab just 2 weeks after hitting 5K. The growth felt real, and so did the opportunities."
                 userName="Amanda K."
@@ -190,7 +190,7 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_5.png"
+                imgURL="/img/review_img_5.svg"
                 title="Got my first brand collab within 2 weeks of hitting 5K!"
                 description="I landed my first brand collab just 2 weeks after hitting 5K. The growth felt real, and so did the opportunities."
                 userName="Amanda K."
@@ -217,7 +217,7 @@ export default function WhyTrust() {
             </SwiperSlide>
             <SwiperSlide className="xl:!w-[638px] md:!w-[420px] lg:!w-[540px] !w-[319px]">
               <ReviewCard
-                imgURL="/img/review_img_5.png"
+                imgURL="/img/review_img_5.svg"
                 title="Got my first brand collab within 2 weeks of hitting 5K!"
                 description="I landed my first brand collab just 2 weeks after hitting 5K. The growth felt real, and so did the opportunities."
                 userName="Amanda K."
