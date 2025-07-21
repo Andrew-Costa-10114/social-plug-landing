@@ -167,11 +167,11 @@ function PricingCard({
           className="w-[287px] h-[20px]"
         /> */}
         <Image
-          src="/img/payments_1.png"
+          src="/img/payments.svg"
           width={294}
           height={21}
           alt="payment_methods"
-          className="w-[294px] h-[21px]"
+          className="w-[294px]"
         />
       </div>
     </div>
